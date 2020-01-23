@@ -71,7 +71,7 @@ def is_win(word, letters: list):
 
 
 def play_game():
-    word = choice(['TESTING'])
+    word = choice(WORDS_LIST)
     score = 0
     letters = []
     print_hidden_word(word, letters)
